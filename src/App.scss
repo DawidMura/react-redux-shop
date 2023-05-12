@@ -1,0 +1,14 @@
+body {
+  background-color: #333;
+  color: #d9d3d3;
+  padding: 20px;
+  font-size: 1.5rem;
+
+  a {
+    color: #aaa;
+    text-decoration: none;
+    &.active {
+      color: #9c27b0;
+    }
+  }
+}
